@@ -4,27 +4,35 @@
 	<title>Hello World</title>
 </head>
 <body>
-<table>
+<table border="2">
+	<thead>
 	<tr>
-		<td>name</td>
+		<th>name</th>
+		<th>age</th>
+		<th>gender</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
 		<td>john</td>
-		<td>peter</td>
-		<td>jane</td>
-		<td>sammy</td>
+		<td>52</td>
+		<td>male</td>
+		
+	</tr>
 		<tr>
-			<td>age</td>
-			<td>13</td>
-			<td>9</td>
-			<td>23</td>
-			<td>18</td>
+			<td>peter</td>
+			<td>78</td>
+			<td>male</td>
+			
 		</tr>
 		<tr>
-			<td>gender</td>
-			<td>male</td>
-			<td>male</td>
+			<td>jane</td>
+			<td>20</td>
 			<td>female</td>
-			<td>male</td>
+			
 		</tr>
+		</tbody>
+	</table>
 		
 
 </body>
