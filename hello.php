@@ -13,10 +13,15 @@
 		<th>age</th>
 </tr>
 <?php
-$localhost="localhost";                                                             
-  $username="root";
-  // $password="MUGAMBI@123"; /* Mugambi Password */
-  $password=""; /* Bakasa Password */
+  /***** Mugambi Server Credentials ****/
+  // $localhost="localhost";                                                             
+  // $username="root";
+  // $password="MUGAMBI@123"; 
+  /**** Bakasa Server Credentials ****/
+  $localhost="127.0.0.1";                                                             
+  $username="homestead";
+  $password="secret";
+
   $db="git1";
  $conn=mysqli_connect($localhost,$username,$db);
  if(!$conn)
