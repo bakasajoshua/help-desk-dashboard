@@ -15,7 +15,8 @@
 <?php
 $localhost="localhost";                                                             
   $username="root";
-  $password="MUGAMBI@123";
+  // $password="MUGAMBI@123"; /* Mugambi Password */
+  $password=""; /* Bakasa Password */
   $db="git1";
  $conn=mysqli_connect($localhost,$username,$db);
  if(!$conn)
